@@ -1,0 +1,132 @@
+ /* .kk{
+    color: red;
+
+ }  */
+   /* .img1{ */
+    /* display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    
+   /* } */
+
+  
+.img1 img{
+    /*height: 80vh;   */
+    /* height: auto;  */
+    /* width: 40vw;  
+    height: 68vh; */
+    
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    object-fit: cover;   
+    padding: 20px;
+  }
+
+  .first-section{
+    height: 100vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    column-gap: 1.5rem;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25); 
+  }
+  .first-section div{
+    width:600px;
+    /* margin-left: 100px;
+    margin-left: 100px; */
+  }
+  .about-me-para{
+    text-align:justify;
+    font-family: 'Nunito', 'Segoe UI', sans-serif;
+    /* font-family: 'Inter', 'Roboto', sans-serif; */
+    /* font-family: 'Caveat', cursive; */
+
+    font-style: normal;
+    font-weight:normal;
+    line-height: 35px;
+    font-size: 22px;
+  }
+  .underline {
+  text-decoration:underline solid 2.5px;
+  text-underline-offset: 2px;
+  text-decoration-color: #defc1a;
+
+   
+}
+
+  
+
+  /* section2 */
+  .img2 img{
+     /* width: 100vw;  
+    height: auto; */
+
+     /* max-width: 100%;     
+  height: auto;        
+  display: block; */
+  }
+
+  /* section 3 */
+ .mission-sec{
+    /* margin-top: 50px; */
+    padding-top: 150px;
+    height: 95vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
+    font-size: var(--body-content-font-size);
+
+ }
+ .mission-para-div{
+   padding:30px 350px 300px 350px;
+   text-align:center;
+ }
+  /* section 4 */
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+  }
+  .curr-research{
+    margin-top: 4rem;
+
+  }
+  /* .article-container{
+    width:800px;
+  } */
+  .article-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:55px;
+     width:800px;  
+  }
+  .article-item-para{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+     font-size: var(--body-content-font-size);
+  }
+  .article-container{
+    margin-top: 3rem;
+  }
+  .article-container article{
+    margin-bottom: 100px; 
+  }
+  .article-container img{
+    width: 200px;
+    height: 200px;
+  }
+ 
+    
+
+   
+ 
+ 
+  
+ 

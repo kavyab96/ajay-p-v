@@ -1,0 +1,40 @@
+.about-secion,.container{
+    margin-top: 8rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+}
+.about-secion header{
+    order: 2;
+}
+.about-secion figure{
+    order: 1;
+}
+.about-secion p{
+    order: 3;
+    padding: 2px 250px ;
+    font-size: var(--body-content-font-size);
+    text-align: justify;
+}
+.about-secion img{
+    width: 26rem;
+    height: 26rem;
+    /* border-radius: 50%; */
+    object-fit: cover; 
+}
+/* education */
+/* .container{
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+.ed-article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+}
+
